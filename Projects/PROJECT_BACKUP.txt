@@ -1,0 +1,67 @@
+steam<- read.table(file = "forestfires.csv",header = T,sep = ",")
+
+head(steam)
+str(steam)
+attach(steam)
+mean(FFMC)
+sd(FFMC)
+mean(FFMC)
+sd(FFMC)
+mean(DC)
+sd(DC)
+mean(ISI)
+sd(ISI)
+mean(temp)
+sd(temp)
+mean(RH)
+sd(RH)
+	
+
+#lines(density(area))
+par(mfrow = c(2,4))
+hist(FFMC)
+hist(DMC)
+hist(DC)
+hist(ISI)
+hist(temp)
+hist(RH)
+hist(wind)
+hist(rain)
+
+png("2.png")
+hist(area,freq = F)
+dev.off()
+pos_steam = steam[which(area>0),]
+summary(pos_steam)
+
+pairs(pos_steam[,c(1,2,seq(5,12))],panel = panel.smooth)
+#As we can see from the plot that the correlation between DMC and DC seems high.
+#On the other hand, temp and RH variables seem correlatead
+
+Mon<- subset(pos_steam,day=="mon")
+Tue<- subset(pos_steam,day=="tue")
+Wed<- subset(pos_steam,day=="wed")
+Thu<- subset(pos_steam,day=="thu")
+Fri<- subset(pos_steam,day=="fri")
+Sat<- subset(pos_steam,day=="sat")
+Sun<- subset(pos_steam,day=="sun")
+
+
+Jan<- subset(pos_steam,month=="jan")
+Feb<- subset(pos_steam,month=="feb")
+Mar<- subset(pos_steam,month=="mar")
+Apr<- subset(pos_steam,month=="apr")
+May<- subset(pos_steam,month=="may")
+Jun<- subset(pos_steam,month=="jun")
+Jul<- subset(pos_steam,month=="jul")
+Aug<- subset(pos_steam,month=="aug")
+Sep<- subset(pos_steam,month=="sep")
+Oct<- subset(pos_steam,month=="oct")
+Nov<- subset(pos_steam,month=="nov")
+Dec<- subset(pos_steam,month=="dec")
+
+boxplot(Sun$temp,Mon$temp,Tue$temp,Wed$temp,Thu$temp,Fri$temp,Sat$temp,main="Temperature by dates of week")
+boxplot (Jan$temp,Feb$temp,Mar$temp,Apr$temp,May$temp,Jun$temp,Jul$temp,Aug$temp,Sep$temp,Oct$temp,Nov$temp,Dec$temp,main="Temparature by month",xlab="Month",ylab="Temparature")
+
+
+

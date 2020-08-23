@@ -1,0 +1,487 @@
+Trinh Gia Huy (290290)
+
+*Exercise Package 0
+0.1
+> getwd()
+[1] "C:/Users/ACER/Documents"
+1.1
+> setwd("C:/Users/ACER/Desktop")
+> getwd()
+[1] "C:/Users/ACER/Desktop"
+> dir()
+ [1] "(860) Eduvance - YouTube.lnk"                                                         
+ [2] "(860) VHDL Lecture 1 VHDL Basics - YouTube.lnk"                                       
+ [3] "(Backup)Anthony Williams - C++ Concurrency in Action (2019, Manning Publications).pdf"
+ [4] "~$b1_FYS_Report2 (1).docx"                                                            
+ [5] "~$b1_FYS_Report2 (Final).docx"                                                        
+ [6] "~$D-PROJECT.docx"                                                                     
+ [7] "01.08.txt"                                                                            
+ [8] "ASM-FACEBOOK.txt"                                                                     
+ [9] "ASM LINK.txt"                                                                         
+[10] "Avoimet työpaikat - Haku hakutekijöillä.lnk"                                          
+[11] "B?ng giá Lightning.lnk"                                                               
+[12] "Back to school. FI.pdf"                                                               
+[13] "barrier using pthread conditon var.txt"                                               
+[14] "C++.pdf"                                                                              
+[15] "C64-Wiki.lnk"                                                                         
+[16] "CHUY?N TI?N.txt"                                                                      
+[17] "Concur_shorcut"                                                                       
+[18] "Counter-Strike Global Offensive.url"                                                  
+[19] "Datastructure"                                                                        
+[20] "desktop.ini"                                                                          
+[21] "DeThi.py"                                                                             
+[22] "DeThi.txt"                                                                            
+[23] "Discord.lnk"                                                                          
+[24] "Embedded"                                                                             
+[25] "Etusivu - OP Saavutettava.lnk"                                                        
+[26] "EXAM.pptx"                                                                            
+[27] "Finish lecture note.TXT"                                                              
+[28] "firewall.txt"                                                                         
+[29] "FYS_EX"                                                                               
+[30] "G?ai tích ph?c"                                                                       
+[31] "git know.txt"                                                                         
+[32] "Google.lnk"                                                                           
+[33] "Graphicaldesign.py"                                                                   
+[34] "HONGKONG 1.html"                                                                      
+[35] "Hop ngu . pdf"                                                                        
+[36] "Host and Guest System.txt"                                                            
+[37] "HTML SOLOLEARN"                                                                       
+[38] "Job link 4.6.txt"                                                                     
+[39] "Jobs in Facebook.lnk"                                                                 
+[40] "JS"                                                                                   
+[41] "JUMP INS ASM.txt"                                                                     
+[42] "KORONA.lnk"                                                                           
+[43] "Laptop Test 16.06.3dr"                                                                
+[44] "Linkedin Profile.txt"                                                                 
+[45] "LINUX LINK.txt"                                                                       
+[46] "LINUX_NOTE"                                                                           
+[47] "Loonytek BLOG.lnk"                                                                    
+[48] "Mä en pelkää.txt"                                                                     
+[49] "Manning Book.lnk"                                                                     
+[50] "MAT5"                                                                                 
+[51] "Material Reading.TXT"                                                                 
+[52] "Microsoft Teams.lnk"                                                                  
+[53] "Miscellaneous"                                                                        
+[54] "my_record.pdf"                                                                        
+[55] "MySuomi"                                                                              
+[56] "New Microsoft Word 97 - 2003 Document.doc"                                            
+[57] "NODE1"                                                                                
+[58] "Norway Programme.txt"                                                                 
+[59] "pandas.pdf"                                                                           
+[60] "photograph_-_ed_sheeran.pdf"                                                          
+[61] "Profile.jpg"                                                                          
+[62] "PROGRAM1 LESSON"                                                                      
+[63] "Programing 2 Course"                                                                  
+[64] "PTViPhan"                                                                             
+[65] "Pycharmfile"                                                                          
+[66] "Python.pdf"                                                                           
+[67] "Record"                                                                               
+[68] "RETHAT PACKAGE MANAGER.txt"                                                           
+[69] "rokikis"                                                                              
+[70] "shorcut"                                                                              
+[71] "Siivoja.TXT"                                                                          
+[72] "Skillz.txt"                                                                           
+[73] "Suomi"                                                                                
+[74] "TeamLink.lnk"                                                                         
+[75] "Todicode.com.lnk"                                                                     
+[76] "toi-di-code-dao-ebook-demo.pdf"                                                       
+[77] "Unikey.lnk"                                                                           
+[78] "VHDL 3 FF Push Button Debounce.txt"                                                   
+[79] "VHDL chap2.txt"                                                                       
+[80] "VHDL chap3.txt"                                                                       
+[81] "Viber.lnk"                                                                            
+[82] "Visual Studio Code.lnk"                                                               
+[83] "Web.pdf"                                                                              
+[84] "whatis.txt"                                                                           
+[85] "WPS Office.lnk"                                                                       
+[86] "x86_64 Linux Assembly.lnk"                                                            
+[87] "Zalo.lnk"                                                                             
+[88] "Zoom.lnk"      
+
+
+*Exercise Package 1
+1.1
+> 4/3*pi*2^3
+[1] 33.51032
+
+1.2
+> 1.8*35+32
+[1] 95
+
+1.3
+> sin(0)^2 + cos(0)^2
+[1] 1
+> sin(15)^2 + cos(15)^2
+[1] 1
+> sin(30)^2 + cos(30)^2
+[1] 1
+> sin(45)^2 + cos(45)^2
+[1] 1
+> sin(90)^2 + cos(90)^2
+[1] 1
+
+1.4
+> sqrt(2**2 + 2^2)
+[1] 2.828427
+
+
+
+*Exercise Package 2
+2.1
+> identical(as.integer(5), 5.0)
+[1] FALSE
+> as.integer(5.0) == 5
+[1] TRUE
+
+2.2
+> ls()
+[1] "x"
+> object.size(x)
+56 bytes
+
+2.3
+> typeof(Inf - Inf)
+[1] "double"
+> typeof(Inf + Inf)
+[1] "double"
+> class(0/0)
+[1] "numeric"
+> class(sin(Inf))
+[1] "numeric"
+Warning message:
+In sin(Inf) : NaNs produced
+> mode(Inf/0)
+[1] "numeric"
+
+2.4
+> ellipse_area<- function(a, b){
++ pi*a*b 
++ }
+> ellipse_area(3, 5)
+[1] 47.12389
+
+
+
+
+
+*Exercise Package 3
+
+3.1
+> b<- rep(5,10)
+> var(b)
+[1] 0
+> mean(b)
+[1] 5
+
+3.2
+> compute_vector<- function(z){
++ min(z) + max(z)
++ }
+>z<- 1:10
+> compute_vector(z)
+[1] 11
+
+3.3
+> sina <- function(a){
++  a - (a^3)/factorial(3)
++ }
+> sina(pi/2)
+[1] 0.9248322
+> sina(pi/4)
+[1] 0.7046527
+
+3.4
+> sd(steam$Level)/mean(steam$Level)   #CV=standard deviation / mean 
+[1] 1.832636
+> sd(steam$Badges)/mean(steam$Badges)   #CV=standard deviation / mean 
+[1] 3.943335
+
+3.5
+> toy_dat<- data.frame(id=1:5,name=c("Helsinki","Oslo","Milan","Paris","Berlin"),score=sample(x=1:100,size=5))
+> toy_dat
+  id     name score
+1  1 Helsinki    49
+2  2     Oslo    10
+3  3    Milan    92
+4  4    Paris    17
+5  5   Berlin    55
+> write.csv(toy_dat, file = "toy.csv", row.names = F)
+> toyfile<- read.csv(file = "toy.csv",header = T)
+> toyfile
+  id     name score
+1  1 Helsinki    49
+2  2     Oslo    10
+3  3    Milan    92
+4  4    Paris    17
+5  5   Berlin    55
+
+
+
+
+*Exercise Package 4
+4.1
+> greeting<- function(hour = as.numeric(format(strptime(Sys.time(), "%Y-%m-%d %H:%M:%S") , "%H"))){
++   if(hour<6){print("good night")
++   }else{
++ if(hour<10){print("goodnornig")
++ }else{
++ if(hour<15){print("good afternoon")
++ }else{
++ if(hour<21){print("good evening")
++ }else{
++ print("good night")
++ }
++ }
++ }
++    }
++ }
+> greeting()
+[1] "good evening"
+
+4.2
+> z<- 1 : 100000000000
+> start_t<- Sys.time()
+> 
+> sum <- 0;
+> 
+> for(x in z){
++ sum = sum + x
++ }
+
+> print(sum)
+[1] 7.762492e+15
+> 
+> end_t<- Sys.time()
+> end_t - start_t
+Time difference of 3.105868 secs
+
+4.3
+> for (num in 1:50){
++ count<-0
++ i<-2
++ while(i<=num/2){
++ if(num%%i==0){
++ count <- count +1
++ break
++ }
++ i<- i+1
++ }
++ if(count==0 & num != 1){print(num)}
++ }
+[1] 2
+[1] 3
+[1] 5
+[1] 7
+[1] 11
+[1] 13
+[1] 17
+[1] 19
+[1] 23
+[1] 29
+[1] 31
+[1] 37
+[1] 41
+[1] 43
+[1] 47
+
+4.4
+> "%$>€%"<- function(a,b){
++ if(1.1*a>b){
++ T
++ }
++ else{F}
++ }
+> 2 %$>€% 3
+[1] FALSE
+> "%$>€%"<- function(a,b){
++ if(1.1*a>b){
++ T
++ }
++ else{F}
++ }
+> 3 %$>€% 2
+[1] TRUE
+
+
+4.5
+> apply(steam,2,sd)/apply(steam,2,mean)
+   UserId     Level Showcases  Comments    Badges 
+0.5767738 1.8326359 1.3792102 5.1787770 3.9433349 
+
+4.6
+> ls()
+ [1] "%$>€%"          "a"              "b"             
+ [4] "compute_vector" "count"          "cout"          
+ [7] "ellipse_area"   "end_t"          "f"             
+[10] "greeting"       "i"              "isPrime"       
+[13] "j"              "num"            "sina"          
+[16] "start_t"        "steam"          "sum"           
+[19] "sumEleVector"   "toy_dat"        "toyfile"       
+[22] "x"              "z"    
+> sapply(ls(), function(x) object.size(x))
+         %$>€%              a              b compute_vector 
+           112            112            112            120 
+         count           cout   ellipse_area          end_t 
+           112            112            120            112 
+             f       greeting              i        isPrime 
+           112            120            112            112 
+             j            num           sina        start_t 
+           112            112            112            112 
+         steam            sum   sumEleVector        toy_dat 
+           112            112            120            112 
+       toyfile              x              z 
+           112            112            112 
+
+
+
+
+*Exercise Package 5
+5.1
+> plot(airquality[which(airquality$Wind >9.7), c("Ozone", "Solar.R")],col = 2)
+> points(airquality[which(airquality$Wind <9.7), c("Ozone", "Solar.R")],col = 1)
+
+5.2 Reference 
+
+5.3
+> attach(sleep)
+> par(mfrow = c(1,2))
+> hist(sleep$extra)
+> boxplot(sleep$extra, main = "sleep$extra")
+
+5.4
+ boxplot(sleep$extra~feed)
+
+5.5
+> attach(island)
+> small<-sort(islands)
+> large<-sort(islands,decreasing = T)
+> par(mfrow = c(1,2))
+> barplot(c(small[1],small[2]),main="2 smallest islands")
+> barplot(c(large[1],large[2]),main="2 largest islands")
+
+5.6
+> attach(iris)
+> pairs(iris[1:4],pch = 22, bg = c("red", "purple", "blue")[unclass(iris$Species)])#use pair(scatter plot since there are 4 variables)
+
+5.7
+> png(file="(5)7.png")
+> test1<- subset(ChickWeight,Chick==19)
+> test2<- subset(ChickWeight,Chick==29)
+> test3<- subset(ChickWeight,Chick==39)
+> test4<- subset(ChickWeight,Chick==49)
+> plot(test1$Time,test1$weight,col=2,xlab="Time",ylab="Weight",main="Chick Weight by Time and Diet")
+> points(test2$Time,test2$weight,col=3)
+> points(test3$Time,test3$weight,col=4)
+> points(test4$Time,test4$weight,col=6)
+> legend(17,70,legend = c("Diet1","Diet2","Diet3","Diet4"),pch=c(21,21,21,21),col = c(2,3,4,6))
+> dev.off()
+
+
+
+
+
+*Exercise Package 6
+
+6.1
+> cor(iris[1:4])
+             Sepal.Length Sepal.Width Petal.Length Petal.Width
+Sepal.Length    1.0000000  -0.1175698    0.8717538   0.8179411
+Sepal.Width    -0.1175698   1.0000000   -0.4284401  -0.3661259
+Petal.Length    0.8717538  -0.4284401    1.0000000   0.9628654
+Petal.Width     0.8179411  -0.3661259    0.9628654   1.0000000
+
+6.2
+> summary(iris[1:4])
+  Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   
+ Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  
+ 1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  
+ Median :5.800   Median :3.000   Median :4.350   Median :1.300  
+ Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  
+ 3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  
+ Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  
+
+6.3
+> x<- rpois(100,2)
+> mean(x)
+[1] 2.09
+> x_res<- sapply(1:1000, function(x) mean(rpois(100,2)))
+> hist(x_res)
+> mean(x_res)
+[1] 1.99506
+> sd(x_res)
+[1] 0.1376712
+> sqrt(2)/10
+[1] 0.1414214
+
+
+6.4
+> t.test(extra[group=="1"],extra[group=="2"],paired = T)
+
+        Paired t-test
+
+data:  extra[group == "1"] and extra[group == "2"]
+t = -4.0621, df = 9, p-value = 0.002833
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -2.4598858 -0.7001142
+sample estimates:
+mean of the differences 
+                  -1.58 
+
+
+## As we can see that the p-value (0.002) is smaller than the significance level alpha (0.05) then
+##we can reject the nul hypothesis and and accept the alternative hypothesis
+
+
+6.5
+> aoc_res<- aov(chickwts$weight ~ chickwts$feed)
+> aoc_res
+Call:
+   aov(formula = chickwts$weight ~ chickwts$feed)
+
+Terms:
+                chickwts$feed Residuals
+Sum of Squares       231129.2  195556.0
+Deg. of Freedom             5        65
+
+Residual standard error: 54.85029
+Estimated effects may be unbalanced
+> summary(aoc_res)
+              Df Sum Sq Mean Sq F value   Pr(>F)    
+chickwts$feed  5 231129   46226   15.37 5.94e-10 ***
+Residuals     65 195556    3009                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+> #As it can be seen that the p-value = 5.9*10^-10 which is < significance level alpha(0.05) which we reject
+> #the null hypothesis andn accept alternative hypothesis (feed tpye does affect the weight of chicks)
+
+
+6.6
+> attach(cars)
+> lm_res<- lm(dist~speed)
+> summary(lm_res)
+
+Call:
+lm(formula = dist ~ speed)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-29.069  -9.525  -2.272   9.215  43.201 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -17.5791     6.7584  -2.601   0.0123 *  
+speed         3.9324     0.4155   9.464 1.49e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 15.38 on 48 degrees of freedom
+Multiple R-squared:  0.6511,    Adjusted R-squared:  0.6438 
+F-statistic: 89.57 on 1 and 48 DF,  p-value: 1.49e-12
+
+
+
+
+
+
+                                                                       
